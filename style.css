@@ -221,3 +221,93 @@ footer {
     inset 0 0 6px rgba(255, 255, 255, 0.08),
     0 6px 14px rgba(140, 47, 27, 0.55);
 }
+
+
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 18px 40px;
+  }
+
+  .hero {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* NAVBAR */
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero-left h1 {
+    font-size: 40px;
+  }
+
+  .hero-left h3 {
+    font-size: 18px;
+  }
+
+  .hero-left p {
+    font-size: 14px;
+  }
+
+  .hero-right img {
+    width: 240px;
+    height: 240px;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 70px 25px;
+  }
+
+  .section h2 {
+    font-size: 30px;
+  }
+
+  /* SKILLS */
+  .skills span {
+    font-size: 16px;
+    margin: 12px;
+    padding: 14px 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-left h1 {
+    font-size: 32px;
+  }
+
+  .hero-left h3 {
+    font-size: 16px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 24px;
+  }
+}
